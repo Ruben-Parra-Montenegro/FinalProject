@@ -67,11 +67,25 @@ classDiagram
 
 ## Plan and estimate of effort.
 
+
+
+-develop gui to sort of understand how you want the app to function
+-develop the login and authentication, and storing data that pertains to your login.
+-develop data entry portions of gui
+-develop data visualization portions of your gui 
+-develop data structure
+-develop way to access, modify/overwrite and read data to be able to plot it
+-test the app
+-test on other devices
+-present
+this will take me about the rest of the semester to do 
+
+
+
+
 Planning:
 
 This is the initial phase of the development process, where you define the scope and goals of your application. You should also identify the target audience and the features you want to include.
-
-
 
 Requirements gathering:
 
