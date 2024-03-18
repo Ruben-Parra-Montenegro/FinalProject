@@ -3,7 +3,7 @@
         "src"
     ],
     "java.project.outputPath": "bin",
-    "jave.jdt.is.java.home": "C;/Program Files/Java/jdk-21",
+    "java.jdt.ls.java.home": "C:/Program Files/Java/jdk-21",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "d:\\javafx\\javafx-sdk-21.0.2\\lib\\javafx.base.jar",
