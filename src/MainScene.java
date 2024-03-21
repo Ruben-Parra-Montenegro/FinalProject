@@ -79,7 +79,12 @@ public class MainScene {
                 "Date", "Exercise1", "Exercise2", "Exercise3", "Exercise4", "Exercise5", "Exercise6",
                 "Set1", "Set2", "Set3", "Set4", "Set5", "Set6",
                 "Rep1", "Rep2", "Rep3", "Rep4", "Rep5", "Rep6",
-                "Weight1", "Weight2", "Weight3", "Weight4", "Weight5", "Weight6",
+                "E1S1Weight", "E1S2Weight", "E1S3Weight", "E1S4Weight", "E1S5Weight", "E1S6Weight",
+                "E2S1Weight", "E2S2Weight", "E2S3Weight", "E2S4Weight", "E2S5Weight", "E2S6Weight",
+                "E3S1Weight", "E3S2Weight", "E3S3Weight", "E3S4Weight", "E3S5Weight", "E3S6Weight",
+                "E4S1Weight", "E4S2Weight", "E4S3Weight", "E4S4Weight", "E4S5Weight", "E4S6Weight",
+                "E5S1Weight", "E5S2Weight", "E5S3Weight", "E5S4Weight", "E5S5Weight", "E5S6Weight",
+                "E6S1Weight", "E6S2Weight", "E6S3Weight", "E6S4Weight", "E6S5Weight", "E6S6Weight",
                 "CardioType", "Cardio time"
         };
 
@@ -128,15 +133,17 @@ public class MainScene {
         if (selectedFile != null) {
             String filePath = selectedFile.getPath();
             System.out.println("Selected File: " + filePath);
-
+            SharedFilePath.getInstance().setFilePath(filePath);
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("DataEntry.fxml"));
                 Parent root = loader.load();
                 Scene scene = new Scene(root);
                 stage.setScene(scene);
+                stage.setTitle("Data Entry");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
+
 }

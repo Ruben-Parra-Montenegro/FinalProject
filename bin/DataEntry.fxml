@@ -82,8 +82,8 @@
             <TextField fx:id="CardioTime" prefHeight="25.0" prefWidth="25.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
             <Label text="Date:" GridPane.halignment="CENTER" />
             <DatePicker fx:id="DateInput" GridPane.columnIndex="1" />
-            <Button fx:id="SavetoFile" mnemonicParsing="false" onAction="#SavetoFileClicked" text="Save to File" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-            <Button fx:id="Analytics" mnemonicParsing="false" onAction="#AnalyticsClicked" prefHeight="25.0" prefWidth="152.0" text="Analytics" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button fx:id="SavetoFile" mnemonicParsing="false" onAction="#SaveToFileClicked" text="Save to File" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+            <Button fx:id="Analytics" mnemonicParsing="false" onAction="#AnalyticsClicked" prefHeight="25.0" prefWidth="63.0" text="Analytics" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
             <Label text="Weight:" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
             <Label text="Weight:" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
             <Label text="Weight:" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
@@ -126,6 +126,7 @@
             <TextField fx:id="E5S6W" GridPane.columnIndex="12" GridPane.rowIndex="5" />
             <TextField fx:id="E6S5W" GridPane.columnIndex="11" GridPane.rowIndex="6" />
             <TextField fx:id="E6S6W" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+            <Button fx:id="MainMenu" mnemonicParsing="false" onAction="#MainMenu" prefHeight="25.0" prefWidth="89.0" text="Main Menu" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
          </children>
       </GridPane>
    </children>

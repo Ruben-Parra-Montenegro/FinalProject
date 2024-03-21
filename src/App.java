@@ -13,10 +13,10 @@ public class App extends Application {
         try {
             root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
             Scene scene = new Scene(root);
-
-            primaryStage.setTitle("Hello World!");
+            primaryStage.setTitle("Workout Tracker");
             primaryStage.setScene(scene);
             primaryStage.show();
+
         } catch (IOException e) {
 
         }
